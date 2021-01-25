@@ -6,8 +6,10 @@ Main method:
 
 public class Calc
 {
+
     public static void main(String[] args)
     {
+    
         Calculator calc = new Calculator();
         
         //calc.printDamage();
@@ -21,7 +23,9 @@ Calculator Class:
 
 
 import java.util.Scanner;
+
 public class Calculator {
+
     Scanner input = new Scanner(System.in);
     
     
