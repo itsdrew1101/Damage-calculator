@@ -2,6 +2,8 @@
 Wizard101 PvP Calculator - Follow comments and change the spells and their name, as well as damage where said. You can change crit and block to be more accurate for you as well as resist. Resist = Resist - pierce.
 Copy paste the code into an IDE and run.
 Main method: 
+
+
 public class Calc
 {
     public static void main(String[] args)
@@ -11,7 +13,11 @@ public class Calc
         calc.setVars();
     }
     
+    
 Calculator Class:
+
+
+
 import java.util.Scanner;
 public class Calculator {
     Scanner input = new Scanner(System.in);
