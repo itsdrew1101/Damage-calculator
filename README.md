@@ -8,8 +8,11 @@ public class Calc
 {
     public static void main(String[] args)
     {
+    
         Calculator calc = new Calculator();
+        
         //calc.printDamage();
+        
         calc.setVars();
     }
     
@@ -19,16 +22,30 @@ Calculator Class:
 
 
 import java.util.Scanner;
+
+
 public class Calculator {
+
+
     Scanner input = new Scanner(System.in);
+    
+    
     private double spell;
+    
     private double resist;
+    
     private double crit;
+    
     private String player = "";
+    
     private String resAura = "";
+    
     private String theBuffs;
+    
     private double b1=0;
+    
     private double b2=0;
+    
     private double b3=0;
     private double b4=0;
     private double b5=0;
